@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ludo and Rummy game</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class=" me-3"></i>ShowDownPlay</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="menu.html" class="nav-item nav-link">Menu</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="booking.html" class="dropdown-item">Booking</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="" class="btn btn-primary py-2 px-4">Play a Game</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container my-5 py-5">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="display-3 text-white animated slideInLeft">Play and Win<br>Exciting Prizes!</h1>
+                            <p class="text-white animated slideInLeft mb-4 pb-2">Join the ultimate Rummy and Ludo gaming platform. Experience thrilling gameplay, challenge friends, and win big! Sign up now and start your winning streak.</p>
+                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Join Now</a>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                            <img class="img-fluid image_hero" src="img/file (1).png" alt="Rummy and Ludo Games">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        <!-- Navbar & Hero End -->
+
+
+      <!-- Service Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-gamepad text-primary mb-4"></i>
+                        <h5>Expert Players</h5>
+                        <p>Compete against seasoned players and sharpen your skills to become a master in Rummy and Ludo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item rounded pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-shield-alt text-primary mb-4"></i>
+                        <h5>Fair Play</h5>
+                        <p>Experience a level playing field with fair game practices and transparent gameplay.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item rounded pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-trophy text-primary mb-4"></i>
+                        <h5>Instant Rewards</h5>
+                        <p>Win real-time rewards and prizes as you progress through the games and challenge others.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="service-item rounded pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                        <h5>24/7 Support</h5>
+                        <p>Our dedicated support team is available around the clock to assist you with any issues or questions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+<!-- Menu Start -->
+<!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Game Menu</h5>
+            <h1 class="mb-5">Most Popular Games</h1>
+        </div>
+        <div class="row g-4">
+            <!-- Ludo Card -->
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <img class="card-img-top" src="img/4474761.jpg" alt="Ludo">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ludo</h5>
+                        <p class="card-text">Experience the excitement of classic Ludo with your friends and family. Play and strategize to be the first to get all your tokens home.</p>
+                        <a href="#" class="btn btn-primary">Play Ludo</a>
+                    </div>
+                    <div class="card-footer text-center">
+                        <span class="badge bg-primary">upto 4 Players</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Rummy Card -->
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <img class="card-img-top" src="img/3d-rendering-card-game.jpg" alt="Rummy">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Rummy</h5>
+                        <p class="card-text">Enjoy a game of skill with Rummy. Whether you're a beginner or a seasoned player, our platform offers a thrilling Rummy experience for all.</p>
+                        <a href="#" class="btn btn-primary">Play Rummy</a>
+                    </div>
+                    <div class="card-footer text-center">
+                        <span class="badge bg-primary"> upto 4 Players</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+<!-- Menu End -->
+
+
+ <!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="row g-3">
+                    <div class="col-6 text-start">
+                        <div class="bg-primary rounded text-center p-4 wow zoomIn" data-wow-delay="0.1s">
+                            <i class="fa fa-dice fa-4x text-white mb-3"></i>
+                            <h5 class="text-white">Ludo Classic</h5>
+                            <p class="text-white mb-0">Strategy and fun for all ages.</p>
+                        </div>
+                    </div>
+                    <div class="col-6 text-start">
+                        <div class="bg-primary rounded text-center p-4 wow zoomIn" data-wow-delay="0.3s" style="margin-top: 25%;">
+                            <i class="fa fa-chess fa-4x text-white mb-3"></i>
+                            <h5 class="text-white">Ludo Quick</h5>
+                            <p class="text-white mb-0">Fast-paced version of the classic game.</p>
+                        </div>
+                    </div>
+                    <div class="col-6 text-end">
+                        <div class="bg-primary rounded text-center p-4 wow zoomIn" data-wow-delay="0.5s">
+                            <i class="fa fa-users fa-4x text-white mb-3"></i>
+                            <h5 class="text-white">Rummy Classic</h5>
+                            <p class="text-white mb-0">The timeless card game loved by all.</p>
+                        </div>
+                    </div>
+                    <div class="col-6 text-end">
+                        <div class="bg-primary rounded text-center p-4 wow zoomIn" data-wow-delay="0.7s">
+                            <i class="fa fa-trophy fa-4x text-white mb-3"></i>
+                            <h5 class="text-white">Rummy Tournament</h5>
+                            <p class="text-white mb-0">Compete and win in thrilling tournaments.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
+                <h1 class="mb-4">Welcome to <i class="fa fa-gamepad text-primary me-2"></i>Rummy & Ludo Zone</h1>
+                <p class="mb-4">Join us in the exciting world of Rummy and Ludo, where strategy meets fun. Whether you are a seasoned player or a newcomer, our platform offers a thrilling experience for everyone.</p>
+                <p class="mb-4">Our games are designed to provide both entertainment and challenge, with features that cater to players of all skill levels. Experience the thrill of competition and the joy of winning in a fair and engaging environment.</p>
+                <div class="row g-4 mb-4">
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                            <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">10</h1>
+                            <div class="ps-4">
+                                <p class="mb-0">Years of</p>
+                                <h6 class="text-uppercase mb-0">Gaming Excellence</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                            <h1 class="flex-shrink-0 display-5 text-primary mb-0" >100K+</h1>
+                            <div class="ps-4">
+                                <p class="mb-0">Satisfied</p>
+                                <h6 class="text-uppercase mb-0">Players Worldwide</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+
+
+
+ <!-- Instructions Start -->
+<div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="row g-0">
+        <div class="col-md-12 bg-dark d-flex align-items-center">
+            <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
+                <h5 class="section-title ff-secondary text-start text-primary fw-normal">Game Instructions</h5>
+                <h1 class="text-white mb-4">How to Play</h1>
+
+                <div class="instruction-item d-flex align-items-start mb-4">
+                    <i class="fas fa-chess text-primary me-3" style="font-size: 2rem;"></i>
+                    <div>
+                        <h5 class="text-white">Ludo Instructions</h5>
+                        <p class="text-white">
+                            1. Pick Your Color: Each player selects a color and starts with 4 tokens of that color.<br>
+                            2. Roll the Dice: Move your tokens based on the dice roll. If you roll a 6, you get another roll.<br>
+                            3. Reach the Center: Move your tokens along the board to reach the center.<br>
+                            4. Capture Opponents: If you land on an opponent's token, they are sent back to the start.<br>
+                            5. Win the Game: Get all your tokens to the center to win.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="instruction-item d-flex align-items-start mb-4">
+                    <i class="fas fa-chess-board text-primary me-3" style="font-size: 2rem;"></i>
+                    <div>
+                        <h5 class="text-white">Rummy Instructions</h5>
+                        <p class="text-white">
+                            1. Deal Cards: Each player receives a set number of cards.<br>
+                            2. Form Sets and Sequences: Arrange cards into valid sets (three or four of a kind) or sequences (three or more in a numerical order).<br>
+                            3. Draw and Discard: Draw a card from the deck and discard a card to improve your hand.<br>
+                            4. Declare: Once you have valid sets and sequences, declare your hand to win.<br>
+                            5. Strategy Tip: Keep track of the cards your opponents are discarding to avoid giving them useful cards.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Instructions End -->
+
+
+
+
+  <!-- Features Start -->
+<div class="container-xxl pt-5 pb-3">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Our Features</h5>
+            <h1 class="mb-5">Why Play With Us</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="feature-item text-center rounded p-4">
+                    <div class="mb-4">
+                        <i class="fas fa-dice text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <h5 class="mb-0">Ludo Fun</h5>
+                    <p class="text-muted">Enjoy the classic game of Ludo with friends and family. Easy to play, challenging to master.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="feature-item text-center rounded p-4">
+                    <div class="mb-4">
+                        <i class="fas fa-cards text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <h5 class="mb-0">Rummy Excitement</h5>
+                    <p class="text-muted">Dive into thrilling Rummy games and show off your skills. Compete against players worldwide.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="feature-item text-center rounded p-4">
+                    <div class="mb-4">
+                        <i class="fas fa-dollar-sign text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <h5 class="mb-0">Earn Real Money</h5>
+                    <p class="text-muted">Play and win to earn real money. Participate in tournaments and cash prizes to boost your earnings.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="feature-item text-center rounded p-4">
+                    <div class="mb-4">
+                        <i class="fas fa-trophy text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <h5 class="mb-0">Exciting Tournaments</h5>
+                    <p class="text-muted">Join exciting tournaments and competitions. Win trophies and rewards by outperforming other players.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Features End -->
+
+
+      <!-- Image Gallery Start -->
+<!-- Image Gallery Start -->
+<!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="text-center">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Gallery</h5>
+            <h1 class="mb-5">Our Image Gallery</h1>
+        </div>
+        <div id="galleryCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex">
+                        <div class="carousel-item">
+                            <img src="img/3d-dice-studio (1).jpg" class="d-block w-100" alt="Gallery Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/3d-dice-studio.jpg" class="d-block w-100" alt="Gallery Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/3d-rendering-card-game.jpg" class="d-block w-100" alt="Gallery Image 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/4474761.jpg" class="d-block w-100" alt="Gallery Image 4">
+                        </div>
+                         Add more images as needed -->
+                    <!-- </div>
+                </div> -->
+                <!-- Duplicate the carousel-item for infinite scrolling effect -->
+                <!-- <div class="carousel-item">
+                    <div class="d-flex">
+                        <div class="carousel-item">
+                            <img src="img/3d-dice-studio (1).jpg" class="d-block w-100" alt="Gallery Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/3d-dice-studio.jpg" class="d-block w-100" alt="Gallery Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/3d-rendering-card-game.jpg" class="d-block w-100" alt="Gallery Image 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/4474761.jpg" class="d-block w-100" alt="Gallery Image 4">
+                        </div> -->
+                        <!-- Add more images as needed -->
+                    <!-- </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#galleryCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#galleryCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </div>
+</div>  -->
+<!-- Image Gallery End -->
+
+<!-- FAQ Start -->
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="text-center">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">FAQ</h5>
+            <h1 class="mb-5">Frequently Asked Questions</h1>
+        </div>
+        <div class="accordion" id="faqAccordion">
+            <!-- Ludo FAQs -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingLudo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLudo" aria-expanded="true" aria-controls="collapseLudo">
+                        Ludo Game FAQs
+                    </button>
+                </h2>
+                <div id="collapseLudo" class="accordion-collapse collapse show" aria-labelledby="headingLudo" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        <h5>How do I play Ludo?</h5>
+                        <p>Ludo is a classic board game where players roll dice to move their pieces around the board. The objective is to get all your pieces to the home area before your opponents.</p>
+                        <h5>Can I play Ludo with friends?</h5>
+                        <p>Yes, Ludo can be played with friends online or in person. You can invite friends to join your game or play with random opponents online.</p>
+                        <h5>Are there any strategies to win at Ludo?</h5>
+                        <p>While Ludo involves a degree of luck, strategic movement and blocking opponents' pieces can improve your chances of winning.</p>
+                        <h5>What happens if a piece lands on an opponent's piece?</h5>
+                        <p>If your piece lands on an opponent's piece, the opponent’s piece is sent back to the starting point, and you get another turn.</p>
+                        <h5>How many players can play Ludo?</h5>
+                        <p>Ludo can be played with 2 to 4 players, with each player having a set of pieces to move around the board.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rummy FAQs -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingRummy">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRummy" aria-expanded="false" aria-controls="collapseRummy">
+                        Rummy Game FAQs
+                    </button>
+                </h2>
+                <div id="collapseRummy" class="accordion-collapse collapse" aria-labelledby="headingRummy" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        <h5>What is Rummy?</h5>
+                        <p>Rummy is a card game where players aim to form sets and runs of cards to declare a winning hand. It is typically played with a standard deck of cards.</p>
+                        <h5>How many players can play Rummy?</h5>
+                        <p>Rummy can be played with 2 to 6 players, depending on the variant of the game.</p>
+                        <h5>What are the different types of Rummy?</h5>
+                        <p>Common types of Rummy include Indian Rummy, Gin Rummy, and Kalooki. Each variant has slightly different rules and gameplay.</p>
+                        <h5>What are sets and runs in Rummy?</h5>
+                        <p>A set is a group of three or four cards of the same rank but different suits. A run is a sequence of three or more consecutive cards of the same suit.</p>
+                        <h5>How do you declare in Rummy?</h5>
+                        <p>To declare in Rummy, you need to form valid sets and/or runs with all the cards in your hand and then announce your hand to win the game.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FAQ End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+                        <a class="btn btn-link" href="">About Us</a>
+                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a class="btn btn-link" href="">Reservation</a>
+                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                        <p>09AM - 09PM</p>
+                        <h5 class="text-light fw-normal">Sunday</h5>
+                        <p>10AM - 08PM</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
